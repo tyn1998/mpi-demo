@@ -1,0 +1,12 @@
+[project-run]
+command=make run
+output=terminal
+pos=tmux
+cwd=<root>
+
+[project-build]
+command=make
+output=terminal
+pos=tmux
+cwd=$(VIM_ROOT)
+save=2
